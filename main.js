@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "./src/$$_lazy_route_resource lazy recursive":
-/*!**********************************************************!*\
-  !*** ./src/$$_lazy_route_resource lazy namespace object ***!
-  \**********************************************************/
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19,23 +19,23 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./src/app/app-routing.module.ts":
-/*!***************************************!*\
-  !*** ./src/app/app-routing.module.ts ***!
-  \***************************************/
+/***/ "./app/app-routing.module.ts":
+/*!***********************************!*\
+  !*** ./app/app-routing.module.ts ***!
+  \***********************************/
 /*! exports provided: AppRoutingModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm5/router.js");
 
 
 
@@ -56,10 +56,10 @@ var AppRoutingModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/app.component.css":
-/*!***********************************!*\
-  !*** ./src/app/app.component.css ***!
-  \***********************************/
+/***/ "./app/app.component.css":
+/*!*******************************!*\
+  !*** ./app/app.component.css ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -67,10 +67,10 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 
 /***/ }),
 
-/***/ "./src/app/app.component.html":
-/*!************************************!*\
-  !*** ./src/app/app.component.html ***!
-  \************************************/
+/***/ "./app/app.component.html":
+/*!********************************!*\
+  !*** ./app/app.component.html ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -78,18 +78,18 @@ module.exports = "<app-topo></app-topo>\r\n<div *ngIf=\"jogoEmAndamento;else fim
 
 /***/ }),
 
-/***/ "./src/app/app.component.ts":
-/*!**********************************!*\
-  !*** ./src/app/app.component.ts ***!
-  \**********************************/
+/***/ "./app/app.component.ts":
+/*!******************************!*\
+  !*** ./app/app.component.ts ***!
+  \******************************/
 /*! exports provided: AppComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
 
 
 var AppComponent = /** @class */ (function () {
@@ -108,8 +108,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+            template: __webpack_require__(/*! ./app.component.html */ "./app/app.component.html"),
+            styles: [__webpack_require__(/*! ./app.component.css */ "./app/app.component.css")]
         })
     ], AppComponent);
     return AppComponent;
@@ -119,25 +119,25 @@ var AppComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/app.module.ts":
-/*!*******************************!*\
-  !*** ./src/app/app.module.ts ***!
-  \*******************************/
+/***/ "./app/app.module.ts":
+/*!***************************!*\
+  !*** ./app/app.module.ts ***!
+  \***************************/
 /*! exports provided: AppModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _topo_topo_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./topo/topo.component */ "./src/app/topo/topo.component.ts");
-/* harmony import */ var _painel_painel_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./painel/painel.component */ "./src/app/painel/painel.component.ts");
-/* harmony import */ var _tentativas_tentativas_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tentativas/tentativas.component */ "./src/app/tentativas/tentativas.component.ts");
-/* harmony import */ var _progresso_progresso_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./progresso/progresso.component */ "./src/app/progresso/progresso.component.ts");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./app/app.component.ts");
+/* harmony import */ var _topo_topo_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./topo/topo.component */ "./app/topo/topo.component.ts");
+/* harmony import */ var _painel_painel_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./painel/painel.component */ "./app/painel/painel.component.ts");
+/* harmony import */ var _tentativas_tentativas_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tentativas/tentativas.component */ "./app/tentativas/tentativas.component.ts");
+/* harmony import */ var _progresso_progresso_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./progresso/progresso.component */ "./app/progresso/progresso.component.ts");
 
 
 
@@ -174,10 +174,10 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/painel/frases-mock.ts":
-/*!***************************************!*\
-  !*** ./src/app/painel/frases-mock.ts ***!
-  \***************************************/
+/***/ "./app/painel/frases-mock.ts":
+/*!***********************************!*\
+  !*** ./app/painel/frases-mock.ts ***!
+  \***********************************/
 /*! exports provided: FRASES */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -194,10 +194,10 @@ var FRASES = [
 
 /***/ }),
 
-/***/ "./src/app/painel/painel.component.css":
-/*!*********************************************!*\
-  !*** ./src/app/painel/painel.component.css ***!
-  \*********************************************/
+/***/ "./app/painel/painel.component.css":
+/*!*****************************************!*\
+  !*** ./app/painel/painel.component.css ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -205,10 +205,10 @@ module.exports = ".jumbotron\r\n{\r\n    margin-top:20px;\r\n    padding-top: 30
 
 /***/ }),
 
-/***/ "./src/app/painel/painel.component.html":
-/*!**********************************************!*\
-  !*** ./src/app/painel/painel.component.html ***!
-  \**********************************************/
+/***/ "./app/painel/painel.component.html":
+/*!******************************************!*\
+  !*** ./app/painel/painel.component.html ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -216,19 +216,19 @@ module.exports = "\n\n \n<div class=\"container\">\n    <div class=\"jumbotron\"
 
 /***/ }),
 
-/***/ "./src/app/painel/painel.component.ts":
-/*!********************************************!*\
-  !*** ./src/app/painel/painel.component.ts ***!
-  \********************************************/
+/***/ "./app/painel/painel.component.ts":
+/*!****************************************!*\
+  !*** ./app/painel/painel.component.ts ***!
+  \****************************************/
 /*! exports provided: PainelComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PainelComponent", function() { return PainelComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _frases_mock__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./frases-mock */ "./src/app/painel/frases-mock.ts");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _frases_mock__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./frases-mock */ "./app/painel/frases-mock.ts");
 
 
 
@@ -317,8 +317,8 @@ var PainelComponent = /** @class */ (function () {
     PainelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-painel',
-            template: __webpack_require__(/*! ./painel.component.html */ "./src/app/painel/painel.component.html"),
-            styles: [__webpack_require__(/*! ./painel.component.css */ "./src/app/painel/painel.component.css")]
+            template: __webpack_require__(/*! ./painel.component.html */ "./app/painel/painel.component.html"),
+            styles: [__webpack_require__(/*! ./painel.component.css */ "./app/painel/painel.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], PainelComponent);
@@ -329,10 +329,10 @@ var PainelComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/progresso/progresso.component.css":
-/*!***************************************************!*\
-  !*** ./src/app/progresso/progresso.component.css ***!
-  \***************************************************/
+/***/ "./app/progresso/progresso.component.css":
+/*!***********************************************!*\
+  !*** ./app/progresso/progresso.component.css ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -340,10 +340,10 @@ module.exports = ".progress\r\n{\r\n    background:#EEF8DA;\r\n    border:solid 
 
 /***/ }),
 
-/***/ "./src/app/progresso/progresso.component.html":
-/*!****************************************************!*\
-  !*** ./src/app/progresso/progresso.component.html ***!
-  \****************************************************/
+/***/ "./app/progresso/progresso.component.html":
+/*!************************************************!*\
+  !*** ./app/progresso/progresso.component.html ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -351,18 +351,18 @@ module.exports = "<div class=\"progress\">\n  <div class=\"progress-bar w-{{prog
 
 /***/ }),
 
-/***/ "./src/app/progresso/progresso.component.ts":
-/*!**************************************************!*\
-  !*** ./src/app/progresso/progresso.component.ts ***!
-  \**************************************************/
+/***/ "./app/progresso/progresso.component.ts":
+/*!**********************************************!*\
+  !*** ./app/progresso/progresso.component.ts ***!
+  \**********************************************/
 /*! exports provided: ProgressoComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressoComponent", function() { return ProgressoComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
 
 
 var ProgressoComponent = /** @class */ (function () {
@@ -378,8 +378,8 @@ var ProgressoComponent = /** @class */ (function () {
     ProgressoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-progresso',
-            template: __webpack_require__(/*! ./progresso.component.html */ "./src/app/progresso/progresso.component.html"),
-            styles: [__webpack_require__(/*! ./progresso.component.css */ "./src/app/progresso/progresso.component.css")]
+            template: __webpack_require__(/*! ./progresso.component.html */ "./app/progresso/progresso.component.html"),
+            styles: [__webpack_require__(/*! ./progresso.component.css */ "./app/progresso/progresso.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], ProgressoComponent);
@@ -390,10 +390,10 @@ var ProgressoComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/shared/coracao.model.ts":
-/*!*****************************************!*\
-  !*** ./src/app/shared/coracao.model.ts ***!
-  \*****************************************/
+/***/ "./app/shared/coracao.model.ts":
+/*!*************************************!*\
+  !*** ./app/shared/coracao.model.ts ***!
+  \*************************************/
 /*! exports provided: Coracao */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -402,8 +402,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Coracao", function() { return Coracao; });
 var Coracao = /** @class */ (function () {
     function Coracao(cheio, urlCoracaoCheio, urlCoracaoVazio) {
-        if (urlCoracaoCheio === void 0) { urlCoracaoCheio = "/assets/coracao_cheio.png"; }
-        if (urlCoracaoVazio === void 0) { urlCoracaoVazio = "/assets/coracao_vazio.png"; }
+        if (urlCoracaoCheio === void 0) { urlCoracaoCheio = "/app1/assets/coracao_cheio.png"; }
+        if (urlCoracaoVazio === void 0) { urlCoracaoVazio = "/app1/assets/coracao_vazio.png"; }
         this.cheio = cheio;
         this.urlCoracaoCheio = urlCoracaoCheio;
         this.urlCoracaoVazio = urlCoracaoVazio;
@@ -423,10 +423,10 @@ var Coracao = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/tentativas/tentativas.component.css":
-/*!*****************************************************!*\
-  !*** ./src/app/tentativas/tentativas.component.css ***!
-  \*****************************************************/
+/***/ "./app/tentativas/tentativas.component.css":
+/*!*************************************************!*\
+  !*** ./app/tentativas/tentativas.component.css ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -434,10 +434,10 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 
 /***/ }),
 
-/***/ "./src/app/tentativas/tentativas.component.html":
-/*!******************************************************!*\
-  !*** ./src/app/tentativas/tentativas.component.html ***!
-  \******************************************************/
+/***/ "./app/tentativas/tentativas.component.html":
+/*!**************************************************!*\
+  !*** ./app/tentativas/tentativas.component.html ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -445,19 +445,19 @@ module.exports = "<!-- <img [src]=\"coracaoCheio\">\n<img [src]=\"coracaoCheio\"
 
 /***/ }),
 
-/***/ "./src/app/tentativas/tentativas.component.ts":
-/*!****************************************************!*\
-  !*** ./src/app/tentativas/tentativas.component.ts ***!
-  \****************************************************/
+/***/ "./app/tentativas/tentativas.component.ts":
+/*!************************************************!*\
+  !*** ./app/tentativas/tentativas.component.ts ***!
+  \************************************************/
 /*! exports provided: TentativasComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TentativasComponent", function() { return TentativasComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _shared_coracao_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/coracao.model */ "./src/app/shared/coracao.model.ts");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_coracao_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/coracao.model */ "./app/shared/coracao.model.ts");
 
 
 
@@ -491,8 +491,8 @@ var TentativasComponent = /** @class */ (function () {
     TentativasComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-tentativas',
-            template: __webpack_require__(/*! ./tentativas.component.html */ "./src/app/tentativas/tentativas.component.html"),
-            styles: [__webpack_require__(/*! ./tentativas.component.css */ "./src/app/tentativas/tentativas.component.css")]
+            template: __webpack_require__(/*! ./tentativas.component.html */ "./app/tentativas/tentativas.component.html"),
+            styles: [__webpack_require__(/*! ./tentativas.component.css */ "./app/tentativas/tentativas.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], TentativasComponent);
@@ -503,10 +503,10 @@ var TentativasComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/topo/topo.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/topo/topo.component.css ***!
-  \*****************************************/
+/***/ "./app/topo/topo.component.css":
+/*!*************************************!*\
+  !*** ./app/topo/topo.component.css ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -514,10 +514,10 @@ module.exports = ".navbar\r\n{\r\n    background:#1cb0f6;\r\n}\r\n/*# sourceMapp
 
 /***/ }),
 
-/***/ "./src/app/topo/topo.component.html":
-/*!******************************************!*\
-  !*** ./src/app/topo/topo.component.html ***!
-  \******************************************/
+/***/ "./app/topo/topo.component.html":
+/*!**************************************!*\
+  !*** ./app/topo/topo.component.html ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -525,18 +525,18 @@ module.exports = "<nav class=\"navbar navbar-dark bg-faded\">\r\n    <h1 class=\
 
 /***/ }),
 
-/***/ "./src/app/topo/topo.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/topo/topo.component.ts ***!
-  \****************************************/
+/***/ "./app/topo/topo.component.ts":
+/*!************************************!*\
+  !*** ./app/topo/topo.component.ts ***!
+  \************************************/
 /*! exports provided: TopoComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TopoComponent", function() { return TopoComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
 
 
 var TopoComponent = /** @class */ (function () {
@@ -546,8 +546,8 @@ var TopoComponent = /** @class */ (function () {
     TopoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-topo',
-            template: __webpack_require__(/*! ./topo.component.html */ "./src/app/topo/topo.component.html"),
-            styles: [__webpack_require__(/*! ./topo.component.css */ "./src/app/topo/topo.component.css")]
+            template: __webpack_require__(/*! ./topo.component.html */ "./app/topo/topo.component.html"),
+            styles: [__webpack_require__(/*! ./topo.component.css */ "./app/topo/topo.component.css")]
         })
     ], TopoComponent);
     return TopoComponent;
@@ -557,10 +557,10 @@ var TopoComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/environments/environment.ts":
-/*!*****************************************!*\
-  !*** ./src/environments/environment.ts ***!
-  \*****************************************/
+/***/ "./environments/environment.ts":
+/*!*************************************!*\
+  !*** ./environments/environment.ts ***!
+  \*************************************/
 /*! exports provided: environment */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -585,19 +585,19 @@ var environment = {
 
 /***/ }),
 
-/***/ "./src/main.ts":
-/*!*********************!*\
-  !*** ./src/main.ts ***!
-  \*********************/
+/***/ "./main.ts":
+/*!*****************!*\
+  !*** ./main.ts ***!
+  \*****************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "../node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./environments/environment.ts");
 
 
 
@@ -612,13 +612,13 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /***/ }),
 
 /***/ 0:
-/*!***************************!*\
-  !*** multi ./src/main.ts ***!
-  \***************************/
+/*!***********************!*\
+  !*** multi ./main.ts ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\projetos\angulasJS\Angular-4\projetos\app1\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! E:\projetos\angulasJS\Angular-4\projetos\app1\src\main.ts */"./main.ts");
 
 
 /***/ })
